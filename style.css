@@ -8,45 +8,6 @@ html {
     
 }
 
-.container-navbar {
-    background-color: rgba(255, 192, 203, 0.808);
-    width: 100%;
-    height: 10vh;
-}
-
-.ul-navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.li-navbar {
-    border: 5px solid rgb(8, 8, 8);
-    background-color:darksalmon;
-    list-style-type: none;
-    padding: 20px;
-    margin: 10px;
-    color: rgb(19, 17, 17);
-    font-size : 30px
-}
-
-.li-navbar:hover {
-    background-color:burlywood;
-}
-
-.a-navbar {
-    color: rgba(224, 79, 79, 0.829);
-    text-decoration: none;
-}
-
-.container-content {
-    background-color: rgba(255, 192, 203, 0.808);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-}
-
 .a-content {
     background-color: white;
     color: black;
@@ -61,6 +22,45 @@ html {
     border-radius: 80px;
 }
 
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    border: 5px solid rgb(8, 8, 8);
+    background-color:rgb(232, 169, 227);
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    color: rgb(19, 17, 17);
+    font-size : 30px;
+}
+
+.li-navbar:hover {
+    background-color:burlywood;
+}
+
+.a-navbar {
+    color: rgba(224, 79, 79, 0.829);
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: rgba(120, 206, 238, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-navbar {
+    background-color: rgba(120, 206, 238, 0.808);
+    width: 100%;
+    height: 10vh;
+}
+
 .img-content {
     width: 50%;
     height: 60%;
@@ -69,7 +69,7 @@ html {
 .container-footer {
     font-style:oblique;
     height: 10vh;
-    background-color:rgb(148, 198, 226);
+    background-color:rgb(232, 169, 227);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,3 +102,15 @@ html {
     align-items: top;
 }
 
+.h-content1 {
+    font-size: 19px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.GAMBAR-CONTENT {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
